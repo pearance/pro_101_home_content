@@ -24,4 +24,5 @@ features[ds_field_settings][] = node|featured|teaser
 features[ds_layout_settings][] = node|featured|teaser
 features[features_api][] = api:1
 features[flexslider_optionset][] = front_page_showcase
+features[image][] = featured_large
 features[user_permission][] = administer flexslider

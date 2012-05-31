@@ -16,7 +16,7 @@ function pro_101_home_content_flexslider_default_presets() {
   $preset->name = 'front_page_showcase';
   $preset->title = 'Front Page Showcase';
   $preset->theme = 'classic';
-  $preset->imagestyle_normal = 'flexslider_full';
+  $preset->imagestyle_normal = 'featured_large';
   $preset->options = array(
     'animation' => 'slide',
     'animationDuration' => 600,
