@@ -34,6 +34,9 @@ function pro_101_home_content_context_default_contexts() {
         ),
       ),
     ),
+    'delta' => array(
+      'delta_template' => 'front',
+    ),
   );
   $context->condition_mode = 0;
 
