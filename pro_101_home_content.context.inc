@@ -29,7 +29,7 @@ function pro_101_home_content_context_default_contexts() {
         'views-showcase-block' => array(
           'module' => 'views',
           'delta' => 'showcase-block',
-          'region' => 'content',
+          'region' => 'preface_first',
           'weight' => '-10',
         ),
       ),
