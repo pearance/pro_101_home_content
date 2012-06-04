@@ -38,7 +38,7 @@ function pro_101_home_content_content_defaults() {
         0 => array(
           'url' => '',
           'title' => 'Read More',
-          'attributes' => FALSE,
+          'attributes' => array(),
         ),
       ),
     ),
@@ -78,7 +78,7 @@ function pro_101_home_content_content_defaults() {
         0 => array(
           'url' => '',
           'title' => 'Read More',
-          'attributes' => FALSE,
+          'attributes' => array(),
         ),
       ),
     ),
@@ -118,7 +118,7 @@ function pro_101_home_content_content_defaults() {
         0 => array(
           'url' => '',
           'title' => 'Read More',
-          'attributes' => FALSE,
+          'attributes' => array(),
         ),
       ),
     ),
