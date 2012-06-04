@@ -22,15 +22,21 @@ function pro_101_home_content_content_defaults() {
     'comment' => '0',
     'translate' => '0',
     'machine_name' => 'featured1',
-    'body' => array(
+    'field_subtitle' => array(
       'und' => array(
         0 => array(
-          'value' => 'This is featured 1 content.',
-          'summary' => '',
-          'format' => 'plain_text',
-          'safe_value' => '<p>This is featured 1 content.</p>
+          'value' => '​Subtitle for feature 1.<br />
 ',
-          'safe_summary' => '',
+          'format' => 'plain_text',
+          'safe_value' => '<p>​Subtitle for feature 1.</p>
+',
+        ),
+      ),
+    ),
+    'field_weight' => array(
+      'und' => array(
+        0 => array(
+          'value' => '1',
         ),
       ),
     ),
@@ -48,15 +54,20 @@ function pro_101_home_content_content_defaults() {
     'comment' => '0',
     'translate' => '0',
     'machine_name' => 'featured2',
-    'body' => array(
+    'field_subtitle' => array(
       'und' => array(
         0 => array(
-          'value' => 'This is featured 2 content.',
-          'summary' => '',
+          'value' => 'Subtitle for feature 2.',
           'format' => 'plain_text',
-          'safe_value' => '<p>This is featured 2 content.</p>
+          'safe_value' => '<p>Subtitle for feature 2.</p>
 ',
-          'safe_summary' => '',
+        ),
+      ),
+    ),
+    'field_weight' => array(
+      'und' => array(
+        0 => array(
+          'value' => '2',
         ),
       ),
     ),
@@ -74,26 +85,20 @@ function pro_101_home_content_content_defaults() {
     'comment' => '0',
     'translate' => '0',
     'machine_name' => 'featured3',
-    'body' => array(
+    'field_subtitle' => array(
       'und' => array(
         0 => array(
-          'value' => '<h2>
-	Full Heading</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-',
-          'summary' => '<h2>
-	Heading</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-',
+          'value' => 'Subtitle for feature 3.',
           'format' => 'plain_text',
-          'safe_value' => '<h2>
-	Full Heading</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          'safe_value' => '<p>Subtitle for feature 3.</p>
 ',
-          'safe_summary' => '<h2>
-	Heading</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-',
+        ),
+      ),
+    ),
+    'field_weight' => array(
+      'und' => array(
+        0 => array(
+          'value' => '3',
         ),
       ),
     ),

@@ -30,7 +30,7 @@ function pro_101_home_content_context_default_contexts() {
           'module' => 'views',
           'delta' => 'showcase-block',
           'region' => 'preface_first',
-          'weight' => '-10',
+          'weight' => '-23',
         ),
       ),
     ),
