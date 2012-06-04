@@ -33,6 +33,15 @@ function pro_101_home_content_content_defaults() {
         ),
       ),
     ),
+    'field_url' => array(
+      'und' => array(
+        0 => array(
+          'url' => '',
+          'title' => 'Read More',
+          'attributes' => FALSE,
+        ),
+      ),
+    ),
     'field_weight' => array(
       'und' => array(
         0 => array(
@@ -64,6 +73,15 @@ function pro_101_home_content_content_defaults() {
         ),
       ),
     ),
+    'field_url' => array(
+      'und' => array(
+        0 => array(
+          'url' => '',
+          'title' => 'Read More',
+          'attributes' => FALSE,
+        ),
+      ),
+    ),
     'field_weight' => array(
       'und' => array(
         0 => array(
@@ -92,6 +110,15 @@ function pro_101_home_content_content_defaults() {
           'format' => 'plain_text',
           'safe_value' => '<p>Subtitle for feature 3.</p>
 ',
+        ),
+      ),
+    ),
+    'field_url' => array(
+      'und' => array(
+        0 => array(
+          'url' => '',
+          'title' => 'Read More',
+          'attributes' => FALSE,
         ),
       ),
     ),
