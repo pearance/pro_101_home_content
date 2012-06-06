@@ -26,11 +26,17 @@ function pro_101_home_content_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'views-showcase-block' => array(
+        'views-showcase-generic' => array(
           'module' => 'views',
-          'delta' => 'showcase-block',
+          'delta' => 'showcase-generic',
           'region' => 'preface_first',
-          'weight' => '-23',
+          'weight' => '-10',
+        ),
+        'views-showcase-thumbnail' => array(
+          'module' => 'views',
+          'delta' => 'showcase-thumbnail',
+          'region' => 'preface_first',
+          'weight' => '-9',
         ),
       ),
     ),

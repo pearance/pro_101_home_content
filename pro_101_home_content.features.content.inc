@@ -36,9 +36,11 @@ function pro_101_home_content_content_defaults() {
     'field_url' => array(
       'und' => array(
         0 => array(
-          'url' => '',
+          'url' => '/',
           'title' => 'Read More',
-          'attributes' => array(),
+          'attributes' => array(
+            'title' => '',
+          ),
         ),
       ),
     ),
@@ -76,9 +78,11 @@ function pro_101_home_content_content_defaults() {
     'field_url' => array(
       'und' => array(
         0 => array(
-          'url' => '',
+          'url' => '/',
           'title' => 'Read More',
-          'attributes' => array(),
+          'attributes' => array(
+            'title' => '',
+          ),
         ),
       ),
     ),
@@ -116,9 +120,11 @@ function pro_101_home_content_content_defaults() {
     'field_url' => array(
       'und' => array(
         0 => array(
-          'url' => '',
+          'url' => '/',
           'title' => 'Read More',
-          'attributes' => array(),
+          'attributes' => array(
+            'title' => '',
+          ),
         ),
       ),
     ),
