@@ -8,7 +8,6 @@ project = pro_101_home_content
 dependencies[] = context
 dependencies[] = ctools
 dependencies[] = defaultcontent
-dependencies[] = ds
 dependencies[] = features
 dependencies[] = menu
 dependencies[] = views
