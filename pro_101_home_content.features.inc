@@ -16,8 +16,4 @@ function pro_101_home_content_ctools_plugin_api() {
   if ($module == "ds" && $api == "ds") {
     return array("version" => "1");
   }
-  list($module, $api) = func_get_args();
-  if ($module == "flexslider" && $api == "flexslider_default_preset") {
-    return array("version" => "1");
-  }
 }
