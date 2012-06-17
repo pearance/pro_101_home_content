@@ -17,5 +17,4 @@ features[content][] = featured3
 features[content_menu_links][] = main-menu:<front>
 features[context][] = home
 features[ctools][] = context:context:3
-features[ctools][] = ds:ds:1
 features[features_api][] = api:1
