@@ -10,7 +10,7 @@
 function pro_101_home_content_context_default_contexts() {
   $export = array();
 
-  $context = new stdClass;
+  $context = new stdClass();
   $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
   $context->api_version = 3;
   $context->name = 'home';
@@ -30,6 +30,12 @@ function pro_101_home_content_context_default_contexts() {
           'module' => 'views',
           'delta' => 'showcase-generic',
           'region' => 'preface_first',
+          'weight' => 0,
+        ),
+        'boxes-twitter' => array(
+          'module' => 'boxes',
+          'delta' => 'twitter',
+          'region' => 'sidebar_second',
           'weight' => 0,
         ),
       ),
