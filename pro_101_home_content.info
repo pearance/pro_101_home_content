@@ -12,6 +12,7 @@ dependencies[] = defaultcontent
 dependencies[] = features
 dependencies[] = menu
 dependencies[] = views
+dependencies[] = widgets
 features[box][] = twitter
 features[content][] = featured1
 features[content][] = featured2
