@@ -26,23 +26,17 @@ function pro_101_home_content_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'widgets-s_facebook-like-box' => array(
-          'module' => 'widgets',
-          'delta' => 's_facebook-like-box',
-          'region' => 'sidebar_second',
-          'weight' => '-8',
-        ),
-        'boxes-twitter' => array(
-          'module' => 'boxes',
-          'delta' => 'twitter',
-          'region' => 'sidebar_second',
-          'weight' => '-6',
-        ),
         'views-showcase-generic' => array(
           'module' => 'views',
           'delta' => 'showcase-generic',
           'region' => 'preface_first',
           'weight' => '0',
+        ),
+        'jasm-twitter_search_widget' => array(
+          'module' => 'jasm',
+          'delta' => 'twitter_search_widget',
+          'region' => 'postscript_third',
+          'weight' => '-10',
         ),
       ),
     ),
