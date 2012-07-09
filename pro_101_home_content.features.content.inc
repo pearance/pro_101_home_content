@@ -28,8 +28,6 @@ function pro_101_home_content_content_defaults() {
           'value' => '​Subtitle for feature 1.<br />
 ',
           'format' => 'plain_text',
-          'safe_value' => '<p>​Subtitle for feature 1.</p>
-',
         ),
       ),
     ),
@@ -70,8 +68,6 @@ function pro_101_home_content_content_defaults() {
         0 => array(
           'value' => 'Subtitle for feature 2.',
           'format' => 'plain_text',
-          'safe_value' => '<p>Subtitle for feature 2.</p>
-',
         ),
       ),
     ),
@@ -112,8 +108,6 @@ function pro_101_home_content_content_defaults() {
         0 => array(
           'value' => 'Subtitle for feature 3.',
           'format' => 'plain_text',
-          'safe_value' => '<p>Subtitle for feature 3.</p>
-',
         ),
       ),
     ),
