@@ -11,7 +11,7 @@ function pro_101_home_content_content_defaults() {
   $content = array();
 
   $content['featured1'] = (object) array(
-    'exported_path' => 'featured-1',
+    'exported_path' => 'feature/featured-1',
     'title' => 'Featured 1',
     'status' => '1',
     'promote' => '0',
@@ -52,7 +52,7 @@ function pro_101_home_content_content_defaults() {
   );
 
   $content['featured2'] = (object) array(
-    'exported_path' => 'featured-2',
+    'exported_path' => 'feature/featured-2',
     'title' => 'Featured 2',
     'status' => '1',
     'promote' => '0',
@@ -92,7 +92,7 @@ function pro_101_home_content_content_defaults() {
   );
 
   $content['featured3'] = (object) array(
-    'exported_path' => 'featured-3',
+    'exported_path' => 'feature/featured-3',
     'title' => 'Featured 3',
     'status' => '1',
     'promote' => '0',
