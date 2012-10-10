@@ -29,13 +29,13 @@ function pro_101_home_content_context_default_contexts() {
         'views-showcase-generic' => array(
           'module' => 'views',
           'delta' => 'showcase-generic',
-          'region' => 'preface_first',
+          'region' => 'impact_1',
           'weight' => '0',
         ),
         'jasm-twitter_search_widget' => array(
           'module' => 'jasm',
           'delta' => 'twitter_search_widget',
-          'region' => 'postscript_first',
+          'region' => 'content',
           'weight' => '-10',
         ),
       ),
