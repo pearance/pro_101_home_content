@@ -35,8 +35,14 @@ function pro_101_home_content_context_default_contexts() {
         'jasm-twitter_search_widget' => array(
           'module' => 'jasm',
           'delta' => 'twitter_search_widget',
-          'region' => 'content',
+          'region' => 'pre_1',
           'weight' => '-10',
+        ),
+        'views-blog-latest_post_block' => array(
+          'module' => 'views',
+          'delta' => 'blog-latest_post_block',
+          'region' => 'pre_1',
+          'weight' => '-8',
         ),
       ),
     ),
