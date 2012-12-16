@@ -42,7 +42,7 @@ function pro_101_home_content_context_default_contexts() {
           'module' => 'views',
           'delta' => 'blog-latest_post_block',
           'region' => 'pre_1',
-          'weight' => '-8',
+          'weight' => '-7',
         ),
       ),
     ),
