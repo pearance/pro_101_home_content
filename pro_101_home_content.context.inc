@@ -15,7 +15,7 @@ function pro_101_home_content_context_default_contexts() {
   $context->api_version = 3;
   $context->name = 'home';
   $context->description = '';
-  $context->tag = 'Section';
+  $context->tag = 'Pages';
   $context->conditions = array(
     'path' => array(
       'values' => array(
@@ -32,17 +32,17 @@ function pro_101_home_content_context_default_contexts() {
           'region' => 'impact_1',
           'weight' => '0',
         ),
-        'jasm-twitter_search_widget' => array(
-          'module' => 'jasm',
-          'delta' => 'twitter_search_widget',
-          'region' => 'pre_1',
-          'weight' => '-10',
-        ),
         'views-blog-latest_post_block' => array(
           'module' => 'views',
           'delta' => 'blog-latest_post_block',
           'region' => 'pre_1',
           'weight' => '-11',
+        ),
+        'jasm-twitter_search_widget' => array(
+          'module' => 'jasm',
+          'delta' => 'twitter_search_widget',
+          'region' => 'pre_1',
+          'weight' => '-10',
         ),
       ),
     ),
@@ -54,7 +54,7 @@ function pro_101_home_content_context_default_contexts() {
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('Section');
+  t('Pages');
   $export['home'] = $context;
 
   return $export;
