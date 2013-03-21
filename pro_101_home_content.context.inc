@@ -26,11 +26,11 @@ function pro_101_home_content_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'views-showcase-generic' => array(
+        'views-slideshow-slideshow' => array(
           'module' => 'views',
-          'delta' => 'showcase-generic',
+          'delta' => 'slideshow-slideshow',
           'region' => 'impact_1',
-          'weight' => '0',
+          'weight' => '-10',
         ),
         'views-blog-latest_post_block' => array(
           'module' => 'views',
