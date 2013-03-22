@@ -61,7 +61,7 @@ function pro_101_home_content_content_defaults() {
       'und' => array(
         0 => array(
           'url' => 'http://pearance.com',
-          'title' => NULL,
+          'title' => 'More',
           'attributes' => array(),
         ),
       ),
@@ -126,7 +126,7 @@ function pro_101_home_content_content_defaults() {
       'und' => array(
         0 => array(
           'url' => 'contact',
-          'title' => NULL,
+          'title' => 'More',
           'attributes' => array(),
         ),
       ),
@@ -191,7 +191,7 @@ function pro_101_home_content_content_defaults() {
       'und' => array(
         0 => array(
           'url' => '/',
-          'title' => NULL,
+          'title' => 'More',
           'attributes' => array(),
         ),
       ),
