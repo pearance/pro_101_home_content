@@ -134,7 +134,7 @@ function pro_101_home_content_content_defaults() {
     'field_weight' => array(
       'und' => array(
         0 => array(
-          'value' => '8',
+          'value' => '7',
         ),
       ),
     ),
@@ -199,7 +199,7 @@ function pro_101_home_content_content_defaults() {
     'field_weight' => array(
       'und' => array(
         0 => array(
-          'value' => '7',
+          'value' => '8',
         ),
       ),
     ),
